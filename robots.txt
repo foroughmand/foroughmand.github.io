@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://foroughmand.github.io/sitemap.xml
+Sitemap: https://foroughmand.ir/sitemap.xml
