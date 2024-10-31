@@ -8,7 +8,11 @@ categories: sample-posts
 featured: true
 ---
 
-<img src="https://www.asrupload.ir/moallaa/tasavir/1400/09/besme-allah29-2-2.jpg" alt="بسم الله" style="width:100%;"/>
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/besmellah.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 
 احتمالا مطالب جدید را اینجا (صفحه‌های گیت‌هاب) بگذاریم، اگر اوضاع خوب بود، مطالب قدیم را هم به اینجا منتقل کنیم ببینیم چه می‌شود
