@@ -4,6 +4,35 @@
 
 // Typography
 
+@font-face {
+  font-family: Vazir Code;
+  src: url('Vazir-Code.eot');
+  src: url('Vazir-Code.eot?#iefix') format('embedded-opentype'),
+       url('Vazir-Code.woff') format('woff'),
+       url('Vazir-Code.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Vazir Code Hack;
+  src: url('Vazir-Code-Hack.eot');
+  src: url('Vazir-Code-Hack.eot?#iefix') format('embedded-opentype'),
+       url('Vazir-Code-Hack.woff') format('woff'),
+       url('Vazir-Code-Hack.ttf') format('truetype');
+  font-weight: normal;
+}
+
+pre, code {
+  text-align: left;
+  direction: ltr;
+  font-family: 'Vazir Code', 'Vazir Code Hack', monospaced;
+}
+
+body {
+  direction: rtl;
+  text-align: right;
+}
+
 p,
 h1,
 h2,
@@ -198,7 +227,7 @@ ul.task-list input[type="checkbox"] {
   .more-info {
     margin-bottom: 5px;
     margin-top: 5px;
-    font-family: monospace;
+    font-family: 'Vazir Code', 'Vazir Code Hack', monospaced;
 
     p {
       display: inline-block;

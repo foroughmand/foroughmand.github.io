@@ -1,16 +1,16 @@
 ---
 layout: about
-title: about
+title: درباره
 permalink: /
 subtitle: ایده‌هایی برای علم.
 
 profile:
-  align: right
+  align: left
   image: logo.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>تهران، خیابان آزادی،</p>
-    <p><دانشگاه صنعتی شریف،/p>
+    <p>دانشگاه صنعتی شریف،</p>
     <p>دانشکده علوم ریاضی، اتاق ۲۱۰</p>
 
 news: true # includes a list of news items
