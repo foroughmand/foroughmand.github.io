@@ -270,7 +270,7 @@ plugins:
   - jekyll-toc
   - jekyll-twitter-plugin
   - jemoji
-  - jekyll-jalali
+  #- jekyll-jalali
   #- jalalidate
 
 # Sitemap settings
