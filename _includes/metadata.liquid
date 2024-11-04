@@ -30,7 +30,7 @@
     {{ page.title }} | {{ title }}
   {% elsif page.title != 'blank' and page.url != '/' %}
     {% if page.title == null or page.title == '' %}
-      {{ page.date | date: '%Y' }} | {{ title }}
+      {{ page.date | jdate: '%Y' }} | {{ title }}
     {% else %}
       {{ page.title }} | {{ title }}
     {% endif %}

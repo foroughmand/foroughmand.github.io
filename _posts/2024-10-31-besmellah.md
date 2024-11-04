@@ -3,8 +3,8 @@ layout: post
 title: بسم الله الرحمن الرحیم
 date: 2024-10-31 22:00:00
 description: شروع به کار در اینجا
-tags: بسم الله
-categories: sample-posts
+tags: بسم-الله
+categories: 
 featured: true
 ---
 
