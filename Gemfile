@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 group :jekyll_plugins do
     gem 'classifier-reborn'
     gem 'jekyll'
-    #gem 'jekyll-archives'
+    gem 'jekyll-archives'
     gem 'jekyll-email-protect'
     gem 'jekyll-feed'
     gem 'jekyll-get-json'
@@ -21,7 +21,7 @@ group :jekyll_plugins do
     gem 'unicode_utils'
     gem 'webrick'
     gem 'jekyll-jalali'
-    #gem 'jalalidate'
+    gem 'jalalidate'
 end
 group :other_plugins do
     gem 'css_parser'
