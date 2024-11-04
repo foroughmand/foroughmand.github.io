@@ -142,7 +142,7 @@ pagination:
       <p>{{ post.description }}</p>
       <p class="post-meta" lang="fa">
         زمان مطالعه {{ read_time }} دقیقه &nbsp; &middot; &nbsp;
-        {{ post.date | date: '%B %d, %Y' }}
+        {{ post.date | jdate: '%d %b %Y' }}
         {% if post.external_source %}
         &nbsp; &middot; &nbsp; {{ post.external_source }}
         {% endif %}
