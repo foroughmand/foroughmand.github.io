@@ -254,6 +254,7 @@ keep_files:
 # Plug-ins
 plugins:
   - jekyll-archives
+  #- jekyll-archives-fa
   - jekyll-email-protect
   - jekyll-feed
   - jekyll-get-json
@@ -269,6 +270,8 @@ plugins:
   - jekyll-toc
   - jekyll-twitter-plugin
   - jemoji
+  #- jekyll-jalali
+  #- jalalidate
 
 # Sitemap settings
 defaults:
