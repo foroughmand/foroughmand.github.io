@@ -1,11 +1,14 @@
 github_users:
-  - foroughmand
+  - torvalds
+  - alshedivat
 
 repo_description_lines_max: 2
 
 github_repos:
-  - foroughmand/azan-tv
-  - foroughmand/IOI
-  - foroughmand/quran-tools
-  - foroughmand/quran-mining-vector
-  - foroughmand/QuranAdvanceSearch
+  - alshedivat/al-folio
+  - jekyll/jekyll
+  - twbs/bootstrap
+  - jquery/jquery
+  - FortAwesome/Font-Awesome
+  - mathjax/MathJax
+  - jpswalsh/academicons
