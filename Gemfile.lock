@@ -92,6 +92,7 @@ GEM
       multi_xml (>= 0.5.2)
     i18n (1.14.6)
       concurrent-ruby (~> 1.0)
+    jalalidate (0.3.6)
     jekyll (4.3.4)
       addressable (~> 2.4)
       colorator (~> 1.0)
@@ -118,6 +119,8 @@ GEM
       jekyll (>= 3.0)
     jekyll-imagemagick (1.4.0)
       jekyll (>= 3.4)
+    jekyll-jalali (0.1.2)
+      jalalidate (~> 0.3)
     jekyll-jupyter-notebook (0.0.6)
       jekyll
     jekyll-link-attributes (1.0.1)
@@ -252,12 +255,14 @@ DEPENDENCIES
   css_parser
   feedjira
   httparty
+  jalalidate
   jekyll
   jekyll-archives
   jekyll-email-protect
   jekyll-feed
   jekyll-get-json
   jekyll-imagemagick
+  jekyll-jalali
   jekyll-jupyter-notebook
   jekyll-link-attributes
   jekyll-minifier

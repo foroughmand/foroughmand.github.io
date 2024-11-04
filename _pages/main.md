@@ -1,22 +1,13 @@
 ---
 layout: default
-permalink: /blog/
-title: نوشته‌ها
-nav: true
-nav_order: 1
-pagination:
-  enabled: true
-  collection: posts
-  permalink: /page/:num/
-  per_page: 5
-  sort_field: date
-  sort_reverse: true
-  trail:
-    before: 1 # The number of links before the current page
-    after: 3 # The number of links after the current page
+permalink: /main/
+title: ایده‌هایی در مورد علم
+nav: false
+nav_order: 10
 ---
 
 <div class="post">
+{% if false %}
 
 {% assign blog_name_size = site.blog_name | size %}
 {% assign blog_description_size = site.blog_description | size %}
@@ -58,7 +49,8 @@ pagination:
 
 {% assign featured_posts = site.posts | where: "featured", "true" %}
 {% if featured_posts.size > 0 %}
-<br>
+<br> 
+{% endif %}
 
 <div class="container featured-posts">
 {% assign is_even = featured_posts.size | modulo: 2 %}
@@ -84,7 +76,7 @@ pagination:
                     {% assign year = post.date | date: "%Y" %}
 
                     <p class="post-meta">
-                      زمان مطالعه {{ read_time }} دقیقه &nbsp; &middot; &nbsp;
+                      {{ read_time }} min read &nbsp; &middot; &nbsp;
                       <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}">
                         <i class="fa-solid fa-calendar fa-sm"></i> {{ year }} </a>
                     </p>
@@ -140,9 +132,9 @@ pagination:
         {% endif %}
       </h3>
       <p>{{ post.description }}</p>
-      <p class="post-meta" lang="fa">
-        زمان مطالعه {{ read_time }} دقیقه &nbsp; &middot; &nbsp;
-        {{ post.date | jdate: '%d %b %Y' }}
+      <p class="post-meta">
+        {{ read_time }} min read &nbsp; &middot; &nbsp;
+        {{ post.date | date: '%B %d, %Y' }}
         {% if post.external_source %}
         &nbsp; &middot; &nbsp; {{ post.external_source }}
         {% endif %}

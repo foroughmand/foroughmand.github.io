@@ -10,8 +10,8 @@ email: foroughmand [dar] g[remote this part!]mail [noghte] com
 description: > 
   اخبار و نظرات مرتبط با علوم کامپیوتر و قسمتی از زیست‌شناسی که به آن مرتبط است.
 footer_text: >
-  نیروگرفته از <a href="https://jekyllrb.com/" target="_blank">جکیل</a> با  پوسته <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
-  تصاویر از <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+  نیروگرفته از <a href="https://jekyllrb.com/" target="_blank">جکیل</a> با  پوسته <a href="https://github.com/alshedivat/al-folio">الفولیو</a>.
+  تصاویر از <a href="https://unsplash.com" target="_blank">آنسپلش</a>.
 keywords: علوم کامپیوتر، فلسفه علم
 lang: fa # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -199,7 +199,7 @@ collections:
     permalink: /:collection/:title/
 
 announcements:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
@@ -253,7 +253,8 @@ keep_files:
 
 # Plug-ins
 plugins:
-  - jekyll-archives
+  #- jekyll-archives
+  #- jekyll-archives-fa
   - jekyll-email-protect
   - jekyll-feed
   - jekyll-get-json
@@ -269,6 +270,8 @@ plugins:
   - jekyll-toc
   - jekyll-twitter-plugin
   - jemoji
+  - jekyll-jalali
+  #- jalalidate
 
 # Sitemap settings
 defaults:
@@ -630,19 +633,19 @@ third_party_libraries:
 # Get external JSON data
 # -----------------------------------------------------------------------------
 
-jekyll_get_json:
-  - data: resume
-    json: assets/json/resume.json # it can also be an url
-jsonresume:
-  - basics
-  - work
-  - education
-  - publications
-  - projects
-  - volunteer
-  - awards
-  - certificates
-  - skills
-  - languages
-  - interests
-  - references
+#jekyll_get_json:
+#  - data: resume
+#    json: assets/json/resume.json # it can also be an url
+#jsonresume:
+#  - basics
+#  - work
+#  - education
+#  - publications
+#  - projects
+#  - volunteer
+#  - awards
+#  - certificates
+#  - skills
+#  - languages
+#  - interests
+#  - references
