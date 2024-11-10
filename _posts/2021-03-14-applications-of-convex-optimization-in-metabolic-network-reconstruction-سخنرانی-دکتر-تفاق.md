@@ -8,7 +8,7 @@ categories:
 
 امروز سخنرانی دکتر تفاق است در مورد کاربردهای بهینه‌سازی در بازسازی شبکه‌های متابولیکی. البته در نهایت هم در مورد مسابقه optimizer صحبت خواهند کرد.
 
-![](assets/images/photo_2021-03-14-17.05.15-723x1024.jpeg)
+{% include figure.liquid loading="eager" path="assets/images/photo_2021-03-14-17.05.15-723x1024.jpeg" class="img-fluid rounded z-depth-1" %}
 
 خلاصه سخنرانی
 
